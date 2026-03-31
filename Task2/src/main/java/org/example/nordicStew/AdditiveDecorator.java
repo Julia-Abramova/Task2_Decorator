@@ -1,7 +1,7 @@
 package org.example.nordicStew;
 
 public abstract class AdditiveDecorator implements Dish {
-    protected Dish wrappedDish;
+    private Dish wrappedDish;
 
     public AdditiveDecorator(Dish dish) {
         this.wrappedDish = dish;
