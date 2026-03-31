@@ -10,11 +10,11 @@ public class NordicFlatbread extends AdditiveDecorator {
 
     @Override
     public String getDescription() {
-        return wrappedDish.getDescription() + " + " + ADDITION_NAME;
+        return getwrappedDish().getDescription() + " + " + ADDITION_NAME;
     }
 
     @Override
     public int getPrice() {
-        return wrappedDish.getPrice() + ADDITIONAL_PRICE;
+        return getwrappedDish().getPrice() + ADDITIONAL_PRICE;
     }
 }
